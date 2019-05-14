@@ -1,0 +1,28 @@
+#navbar {
+  color: hsla(9, 100%, 64%, 0.5);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+   
+}
+body {
+  background-image: url("tulip-4193515__340.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+h3{
+    font-style: italic;
+    font-size: 60px;
+
+}
+.nav-link {
+  text-decoration: none;
+  margin-top: 2rem;
+  color:hotpink;
+  transition: 0.3s; 
+  padding: 15px;
+
+}
+#introduction{
+    color:black;
+    font-size: 30px;
+}
