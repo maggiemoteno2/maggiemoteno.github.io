@@ -1,0 +1,30 @@
+#nav-bar {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+html {
+}
+
+
+.nav-link {
+  text-decoration: none;
+  margin-top: 2rem;
+  color:hotpink;
+}
+
+img {
+  width: 100rem;
+  height: 10rem;
+  /*   padding-bottom:20rem; */
+}
+#About h2{
+  color:Blue;
+}
+#deals h2{
+  color:Red;
+}
+#Products h2{
+  color: blue;
+}
