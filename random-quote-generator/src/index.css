@@ -1,0 +1,49 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+#root{
+  height: 50rem;
+}
+body{
+  margin-top: 1;  
+}
+.quote-box{
+  margin-top: 16rem;
+  height: 30vh;
+  border-left: 3px;
+  border-radius: 3px;
+  padding: 2rem;
+  position: absolute;
+  width: 459px;
+  background-color: #eceba7;
+  margin-left: 35rem;
+  text-align: center
+}
+
+button{
+    color:#fff;
+    background-color:#333;
+    outline:none;
+    font-size:0.8em;
+    padding: 10px 20px;
+    margin-right:204px;
+   
+    cursor:pointer;
+  
+}
+ .author{
+  text-transform: capitalize;
+  color:#2e3131;
+  text-align: right;
+  font-style: italic;
+  }
+  .quote{
+    font-family: fantasy;
+    font-size: 24px;
+    float:left;
+  }
