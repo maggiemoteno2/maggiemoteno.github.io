@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class='quote-box'>
+        <div class="text">
+            <h1 id="quote"></h1>
+            <p id='author'></p>
+            <div class="media">
+    <i class="fa fa-twitter-square" onclick="tweetTweet()" aria-hidden="true"></i>
+
+            </div>
+            <button onclick="changeQuote()">next Quote</button>
+        </div>
+        
+        
+        <div class="footer">by Maggie Moteno</div>
+    </div>
+
+
+
+    <script type="text/javascript">
+        var color = ['#D7BDE2', '#58D68D', '#8E44AD', '#F1C40F', '#99A3A4', '#F08080', '#FF5733','#48C9B0','#273746','#CA6F1E']
+        var i = 0;
+        var quotes = [];
+        var randomNumber= 0;
+        var quote = document.getElementById('quote');
+        var author = document.getElementById('author');
+        var quotes
+
+
+        async function getQuote() {
+            try {
+
+                var { data } =
+                    await axios.get(`https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json`)
+                quotes = data.quotes
+            } catch (error) {
+                console.log(error)
+            }
+
+            quote.innerHTML = `<span id="quoets">${quotes[randomNumber].quote}</span>`;
+            author.innerHTML = `<span>-${quotes[randomNumber].author}</span>`;
+
+        }
+        getQuote()
+
+
+        function tweetTweet(){
+            var url="https://twitter.com/intent/tweet"
+            var quote = document.getElementById("quoets").innerText;
+            var via="userName";
+            window.open(url+"?text="+quote+";via="+via,"","width=500,height=3000")
+        }
+        function changeQuote()
+    {
+    
+
+            randomNumber = Math.floor(Math.random() * quotes.length)
+            quote.innerHTML = `<span>${quotes[randomNumber].quote}</span>`;
+            author.innerHTML = `<span>-${quotes[randomNumber].author}</span>`;
+            i = i < color.length ? ++i : 0 
+            document.querySelector('body').style.background = color[i]
+    
+            
+        }
+        
+    </script>
+</body>
+
+</html>

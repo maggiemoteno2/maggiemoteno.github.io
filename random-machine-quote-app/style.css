@@ -1,0 +1,57 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background:rgb(32, 228, 241);
+    transition: 0,7s;
+
+}
+button{
+    height:38px;
+      border:none;
+      border-radius:3px;
+      color:#fff;
+      background-color:#333;
+      outline:none;
+      font-size:0.85em;
+      padding: 10px 20px;
+      margin-top:30px;
+      float:right;
+    
+      cursor:pointer;
+     
+}
+.quote-box{
+    height:20vh;
+    border-left:3px;
+    border-radius:3px;
+  position:relative;
+margin:8% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  display:table;
+  background-color:#fff;
+}
+.text{
+    min-height: 20vh;
+
+}
+.quote-box h1{
+    font-size: 50px;
+    text-align: left;
+
+}
+.quote-box p{
+text-transform: capitalize;
+color:#2e3131;
+text-align: right;
+font-style: italic;
+}
+.media{
+  font-size: 35px;
+}
+.footer{
+  font-style: italic;
+  font-variant: small-caps;
+  margin-bottom: 50px;
+  text-align: right;
+}
