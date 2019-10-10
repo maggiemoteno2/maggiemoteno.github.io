@@ -1,0 +1,50 @@
+#drum-machine button {
+  background-color: rgb(3, 12, 4);
+  border: 1px solid rgb(118, 181, 185); 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  width: 50%; 
+  display: block; 
+}
+#drum-machine{
+  width:100%;
+  width:25px;
+ 
+}
+
+#drum-machine button:not(:last-child) {
+  border-bottom: none;
+}
+
+#drum-machine button:hover {
+  background-color: #1c3a1c;
+}
+.container{
+  text-align: -webkit-center;
+  margin-top: 191px;
+  border: inset;
+  height: 263px;
+background-color: aliceblue;
+margin-left: 679px;
+margin-right: 640px
+}
+.button{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 329px;
+  }
+#display{
+  margin-left: -170px;
+}
+  .heading{
+    margin-left: 172px;
+  }
+  body{
+    background-color: rgb(180, 146, 134);
+  }
+  .power{
+    margin-top: -131px;
+    margin-right: -465px;
+    cursor: pointer;
+  }
