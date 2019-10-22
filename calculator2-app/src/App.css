@@ -20,3 +20,18 @@
 .App-link {
   color: #09d3ac;
 }
+.keypads{
+  grid-template-columns: auto auto auto;
+    display: grid;
+    margin: 2rem 35rem;
+    width: 32%;
+    background: #f1f3f4;
+    color: #202124;
+    border: 200px solid #f1f3f4;
+    border-radius: 10px;
+    
+  }
+  .container{
+    text-align: center;
+  }
+ 
