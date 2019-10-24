@@ -53,4 +53,16 @@ USB card is easy to use and connects via USB port. Computers automatically detec
 
 
 ### Objectives of Operating System
+-To make the computer system convenient to use in an efficient manner.
 
+-To hide the details of the hardware resources from the users.
+
+-To provide users a convenient interface to use the computer system.
+
+-To act as an intermediary between the hardware and its users, making it easier for the users to access and use other resources.
+
+-To manage the resources of a computer system.
+
+-To keep track of who is using which resource, granting resource requests, and mediating conflicting requests from different programs and users.
+
+-To provide efficient and fair sharing of resources among users and programs.
