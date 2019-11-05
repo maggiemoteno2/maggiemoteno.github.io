@@ -38,5 +38,3 @@ By the help of Number() constructor, you can create number object in JavaScript.
 -toPrecision()	It returns the string representing a number of specified precision.
 
 -toString()	It returns the given number in the form of string.
-
-### 
