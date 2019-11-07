@@ -1,0 +1,56 @@
+---
+Layout:
+Title: "Functional Programming "
+Date: 2019-11-05
+categories:
+---
+
+### Functional Programming
+
+Functional programming languages are specially designed to handle symbolic computation and list processing applications.
+ Functional programming is based on mathematical functions. 
+ Some of the popular functional programming languages include: 
+ Lisp, Python, Erlang, Haskell, Clojure, etc.
+
+### Functional Programming – Characteristics
+Functional programming languages are designed on the concept of mathematical functions that use conditional expressions and recursion to perform computation.
+
+Functional programming supports higher-order functions and lazy evaluation features.
+
+Functional programming languages don’t support flow Controls like loop statements and conditional statements like If-Else and Switch Statements. They directly use the functions and functional calls.
+
+Like OOP, functional programming languages support popular concepts such as Abstraction, Encapsulation, Inheritance, and Polymorphism.
+
+### Functional Programming – Advantages
+Bugs-Free Code − Functional programming does not support state, so there are no side-effect results and we can write error-free codes.
+
+Efficient Parallel Programming − Functional programming languages have NO Mutable state, so there are no state-change issues. One can program "Functions" to work parallel as "instructions". Such codes support easy reusability and testability.
+
+Efficiency − Functional programs consist of independent units that can run concurrently. As a result, such programs are more efficient.
+
+Supports Nested Functions − Functional programming supports Nested Functions.
+
+Lazy Evaluation − Functional programming supports Lazy Functional Constructs like Lazy Lists, Lazy Maps, etc.
+
+### Functional Programming vs. Object-oriented Programming
+### Functional Programming
+Uses Immutable data.	
+Follows Declarative Programming Model.	
+Focus is on: “What you are doing”	
+Supports Parallel Programming	
+Its functions have no-side effects	
+Flow Control is done using function calls & function calls with recursion	
+It uses "Recursion" concept to iterate Collection Data.	
+Execution order of statements is not so important.
+Supports both "Abstraction over Data" and "Abstraction over Behavior".	
+### Object-oriented Programming
+Uses Mutable data.
+Follows Imperative Programming Model.
+Focus is on “How you are doing”
+Not suitable for Parallel Programming
+Its methods can produce serious side effects.
+Flow control is done using loops and conditional statements.
+It uses "Loop" concept to iterate Collection Data. For example: For-each loop in Java
+Execution order of statements is very important.
+Supports only "Abstraction over Data".
+
