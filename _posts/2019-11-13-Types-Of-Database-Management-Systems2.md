@@ -78,3 +78,20 @@ Document DB has become popular recently due to their document storage and NoSQL 
 Popular NoSQL databases are Hadoop/Hbase, Cassandra, Hypertable, MapR, Hortonworks, Cloudera, Amazon SimpleDB, Apache Flink, IBM Informix, Elastic, MongoDB, and Azure DocumentDB.
 
 #### NoSQL Databases
+NoSQL databases are the databases that do not use SQL as their primary data access language. Graph database, network database, object database, and document databases are common NoSQL databases. This articles answers the question, what is a NoSQL database.
+
+NoSQL database do not have predefined schemas, which makes NoSQL databases a prefect candidate of rapid changing development environments. NoSQL allows developers to make changes on the fly without affecting applications.
+ 
+NoSQL databases can be categorized in the following five major categories, Column, Document, Graph, Key-value, and Object databases.
+ 
+Here is a list of 10 popular NoSQL databases.
+Cosmos DB
+ArangoDB
+Couchbase Server
+CouchDB
+Amazon DocumentDB
+MongoDB, CouchBase
+Elasticsearch
+Informix
+SAP HANA
+Neo4j
