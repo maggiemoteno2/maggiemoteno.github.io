@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/maggiemoteno.github.io/broadcasttcg/static/css/main.89b385b4.chunk.css",
+    "main.js": "/maggiemoteno.github.io/broadcasttcg/static/js/main.b4b5b75c.chunk.js",
+    "main.js.map": "/maggiemoteno.github.io/broadcasttcg/static/js/main.b4b5b75c.chunk.js.map",
+    "runtime-main.js": "/maggiemoteno.github.io/broadcasttcg/static/js/runtime-main.9e9d5c86.js",
+    "runtime-main.js.map": "/maggiemoteno.github.io/broadcasttcg/static/js/runtime-main.9e9d5c86.js.map",
+    "static/css/2.fb30deaa.chunk.css": "/maggiemoteno.github.io/broadcasttcg/static/css/2.fb30deaa.chunk.css",
+    "static/js/2.6374101e.chunk.js": "/maggiemoteno.github.io/broadcasttcg/static/js/2.6374101e.chunk.js",
+    "static/js/2.6374101e.chunk.js.map": "/maggiemoteno.github.io/broadcasttcg/static/js/2.6374101e.chunk.js.map",
+    "index.html": "/maggiemoteno.github.io/broadcasttcg/index.html",
+    "precache-manifest.a7eed7a265983ea62aa3c2d118ff8ae2.js": "/maggiemoteno.github.io/broadcasttcg/precache-manifest.a7eed7a265983ea62aa3c2d118ff8ae2.js",
+    "service-worker.js": "/maggiemoteno.github.io/broadcasttcg/service-worker.js",
+    "static/css/2.fb30deaa.chunk.css.map": "/maggiemoteno.github.io/broadcasttcg/static/css/2.fb30deaa.chunk.css.map",
+    "static/css/main.89b385b4.chunk.css.map": "/maggiemoteno.github.io/broadcasttcg/static/css/main.89b385b4.chunk.css.map",
+    "static/media/font-awesome.min.css": "/maggiemoteno.github.io/broadcasttcg/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e9d5c86.js",
+    "static/css/2.fb30deaa.chunk.css",
+    "static/js/2.6374101e.chunk.js",
+    "static/css/main.89b385b4.chunk.css",
+    "static/js/main.b4b5b75c.chunk.js"
+  ]
+}
