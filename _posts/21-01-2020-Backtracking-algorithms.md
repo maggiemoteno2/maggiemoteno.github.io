@@ -24,3 +24,7 @@ Scoring (or tallying) --- the outcomes must be accumulated into overall tallies 
 Error estimation --- an estimate of the statistical error (variance) as a function of the number of trials and other quantities must be determined.
 Variance reduction techniques --- methods for reducing the variance in the estimated solution to reduce the computational time for Monte Carlo simulation
 Parallelization and vectorization --- algorithms to allow Monte Carlo methods to be implemented efficiently on advanced computer architectures.
+
+
+
+
